@@ -5,7 +5,7 @@ on:
     - cron: '* 5 * * *'
 
 jobs:
-  run-KW-TRADE:
+  run-BTC-MACD-Script:
     runs-on: ubuntu-latest
 
     steps:
