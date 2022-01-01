@@ -3,7 +3,7 @@ import numpy as np
 import pandas as p
 import robinhood_helper as rh
 #constants
-BTC_MIN_PURCHASE_SELL_AMOUNT = 100.00
+BTC_MIN_PURCHASE_SELL_AMOUNT = 250.00
 EMA_LOWER_VALUE = 12
 EMA_UPPER_VALUE = 26
 FMA_SIGNAL_VALUE = 9
