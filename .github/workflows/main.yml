@@ -2,12 +2,12 @@ name: KW_TRADE
 
 on:
   schedule:
-    - cron: '* */6 * * *'
-  
+    - cron: '* 5 * * *'
+
 jobs:
   run-KW-TRADE:
     runs-on: ubuntu-latest
-  
+
     steps:
       - name: checkout repo content
         uses: actions/checkout@v2 # checkout the repository content to github runner.
