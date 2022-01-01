@@ -2,7 +2,7 @@ name: KW_TRADE
 
 on:
   schedule:
-    - cron: '1 * * * *'
+    - cron: '* */6 * * *'
   
 jobs:
   run-KW-TRADE:
