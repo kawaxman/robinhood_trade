@@ -1,7 +1,7 @@
 name: KW_TRADE
 
+on: [push]
 on:
-  [push]
   schedule:
     - cron: '* * * * *'
 
