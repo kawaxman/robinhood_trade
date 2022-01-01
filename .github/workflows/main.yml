@@ -1,9 +1,8 @@
 name: KW_TRADE
 
-on: [push]
 on:
   schedule:
-    - cron: '* * * * *'
+    - cron: '*/1 * * * *'
 
 jobs:
   run-KW-TRADE:
