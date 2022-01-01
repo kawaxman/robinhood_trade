@@ -1,4 +1,4 @@
-name: KW_TRADE
+name: run-BTC-MACD-Script
 
 on:
   schedule:
