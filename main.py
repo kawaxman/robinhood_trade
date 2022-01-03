@@ -1,7 +1,7 @@
 import os
 import pyotp
 import robin_stocks
-import BTC_MACD_Script as btcScript
+import BTC_MACD.BTC_MACD_Script as btcScript
 
 def login():
     totp  = pyotp.TOTP(os.getenv('totp_key')).now()
